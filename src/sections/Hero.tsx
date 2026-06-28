@@ -341,7 +341,7 @@ export default function Hero() {
       <AnimatedBackground />
       <ParticleBackground />
 
-      <div className="relative z-10 max-w-[1280px] mx-auto px-6 md:px-10 py-32 w-full">
+      <div className="relative z-10 max-w-[1280px] mx-auto px-6 md:px-10 py-20 md:py-32 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div className="text-right">
@@ -350,13 +350,13 @@ export default function Hero() {
             </p>
 
             <h1
-              className="font-display text-6xl md:text-7xl lg:text-[80px] font-black text-ice mb-6"
+              className="font-display text-4xl sm:text-5xl md:text-7xl lg:text-[80px] font-black text-ice mb-6"
               style={{ lineHeight: 1.1, textShadow: '0 0 60px rgba(0,212,255,0.3)' }}
             >
               {scrambledTitle || '\u00A0'}
             </h1>
 
-            <p className="hero-desc text-xl md:text-2xl text-ice-70 max-w-[560px] mb-8 font-body" style={{ lineHeight: 1.6 }}>
+            <p className="hero-desc text-base md:text-xl lg:text-2xl text-ice-70 max-w-[560px] mb-8 font-body" style={{ lineHeight: 1.6 }}>
               نظام متكامل لإدارة مبيعاتك ومخازنك وعملائك بكفاءة عالية، مع واجهة عصرية سهلة الاستخدام ودعم كامل للغة العربية
             </p>
 
@@ -370,7 +370,7 @@ export default function Hero() {
             </div>
 
             {/* Quick Stats */}
-            <div className="hero-stats flex gap-6 flex-wrap">
+            <div className="hero-stats flex gap-3 md:gap-6 flex-wrap">
               {[
                 { value: '+500', label: 'عميل نشط' },
                 { value: '99.9%', label: 'نسبة uptime' },

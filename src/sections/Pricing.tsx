@@ -99,7 +99,7 @@ export default function Pricing() {
               key={plan.name}
               className={`pricing-card relative rounded-2xl p-8 transition-all duration-300 ${
                 plan.highlighted
-                  ? 'scale-105 z-10'
+                  ? 'md:scale-105 z-10'
                   : ''
               }`}
               style={{
